@@ -73,7 +73,7 @@ const DbConnection = require("./database/Db.js");
 DbConnection(username, password);
 /////////////////
 ///STARTING THE SERVER
-API_HOSTING = "https://skribble-api.vercel.app";
-app.listen(API_HOSTING, () =>
+
+app.listen(PORT, () =>
   console.log(`Server is running successfully on PORT ${PORT}`)
 );
