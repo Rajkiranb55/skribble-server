@@ -8,7 +8,7 @@ const dotenv = require("dotenv").config();
 
 ///////////////////////
 //POST WHERE WE WILL RUN OUR APP
-const PORT = 8000;
+const PORT = "https://skribblebackend.onrender.com";
 
 //////////////////
 //creating an express app
